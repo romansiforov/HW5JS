@@ -5,9 +5,9 @@ const objectTask2 = {
 
     getResult : (number) => {
             if(number > 0){
-                return 1;
+                document.write(`1<br>`);
             } else if ( number <=0){
-                return 2;
+                document.write(`2<br>`);
             } else {
                 throw new Error(`It's not a number`);
             }
@@ -16,5 +16,3 @@ const objectTask2 = {
 }
 
 let ggg = objectTask2.getResult(objectTask2.userVar);
-
-document.write(`Our result is - ${ggg}<br><br>`);
